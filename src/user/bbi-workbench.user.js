@@ -15,7 +15,7 @@ var base_url = 'https://github.com/baptistebieberacn/userscripts/raw/master/src'
 var d = new Date();
 
 var WorkbenchStyle = document.createElement('link');
-WorkbenchStyle.href = base_url+'/css/workbench_script.css?v='+d.getTime();
+WorkbenchStyle.href = base_url+'/css/bbi-workbench.css?v='+d.getTime();
 WorkbenchStyle.rel = 'stylesheet';
 document.getElementsByTagName('head')[0].appendChild(WorkbenchStyle);
 
@@ -26,6 +26,6 @@ JQueryScript.async = false;
 document.getElementsByTagName('head')[0].appendChild(JQueryScript);
 
 var WorkbenchScript = document.createElement('script');
-WorkbenchScript.src = base_url+'/js/workbench_script.js?v='+d.getTime();
+WorkbenchScript.src = base_url+'/js/bbi-workbench.js?v='+d.getTime();
 WorkbenchScript.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(WorkbenchScript);
