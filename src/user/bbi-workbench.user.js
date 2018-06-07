@@ -11,7 +11,7 @@
 // @namespace    *
 // ==/UserScript==
 
-var base_url = 'https://raw.githubusercontent.com/baptistebieberacn/userscripts/raw/master/src'
+var base_url = 'https://raw.githubusercontent.com/baptistebieberacn/userscripts/master/src'
 var d = new Date();
 
 var WorkbenchStyle = document.createElement('link');
